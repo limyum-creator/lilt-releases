@@ -1,0 +1,23 @@
+name: 使用建议
+description: 描述一条你希望更顺手的素材工作流
+title: "[建议] "
+labels: []
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: 你正在完成什么任务？
+      description: 描述实际使用场景，比单独写一个功能名更有帮助
+    validations:
+      required: true
+  - type: textarea
+    id: difficulty
+    attributes:
+      label: 现在卡在哪里？
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: 你希望如何改进？
+      description: 如需附图，请先遮住私人资料

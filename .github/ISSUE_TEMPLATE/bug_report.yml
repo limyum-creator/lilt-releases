@@ -1,0 +1,47 @@
+name: 问题反馈
+description: 告诉我们哪一步没有按预期工作
+title: "[问题] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢试用 Lilt。请不要提交 API Key、Cookie、密码、音乐密钥或整个数据目录；截图请遮住私人资料。
+  - type: input
+    id: version
+    attributes:
+      label: Lilt 版本
+      description: 在设置里查看版本与 build
+      placeholder: 例如 0.5.11 / build 25
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Mac 芯片与 macOS
+      placeholder: 例如 M2 / macOS 15.6
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 从哪个页面开始，点了什么，使用什么类型的素材？
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 预期与实际结果
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: 服务商与模型（模型问题填写）
+      description: 只写名称与接口类型，不要填密钥
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏错误、截图或录屏
+      description: 上传前请遮住私人素材、对话、账号与凭据

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 下载最新版
+    url: https://github.com/limyum-creator/lilt-releases/releases/latest
+    about: 安装包、更新说明与校验文件
+  - name: 快速上手
+    url: https://github.com/limyum-creator/lilt-releases/blob/main/docs/QUICKSTART.md
+    about: 安装、模型配置和素材工作流
