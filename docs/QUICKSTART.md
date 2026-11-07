@@ -2,7 +2,7 @@
 
 [返回首页](../README.md) · [下载最新版](https://github.com/limyum-creator/lilt-releases/releases/latest)
 
-适用于 Apple Silicon（M1 及更新芯片）、macOS 14+。当前测试版为 **0.5.11 / build 25**。
+适用于 Apple Silicon（M1 及更新芯片）、macOS 14+。当前测试版为 **0.5.12 / build 26**。
 
 ## 安装与打开
 
