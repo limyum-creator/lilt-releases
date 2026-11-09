@@ -1,4 +1,4 @@
-<a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.12">
+<a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.16">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/lilt-cover-dark.png">
     <img src="assets/lilt-cover-light.png" width="100%" alt="Lilt — 灵动岛里的素材助手。下载、转录、剪辑与图片处理，让素材在同一条工作流里继续。">
@@ -11,18 +11,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.12"><img src="https://img.shields.io/badge/内测-0.5.12-8067B4?style=flat-square" alt="当前内测版本 0.5.12"></a>
+  <a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.16"><img src="https://img.shields.io/badge/内测-0.5.16-8067B4?style=flat-square" alt="当前内测版本 0.5.16"></a>
   <img src="https://img.shields.io/badge/macOS-14%2B-64748B?style=flat-square&amp;logo=apple&amp;logoColor=white" alt="macOS 14 或更新">
   <img src="https://img.shields.io/badge/Apple_Silicon-M1%2B-64748B?style=flat-square" alt="Apple Silicon M1 及更新芯片">
   <img src="https://img.shields.io/badge/原生界面-SwiftUI_%2F_AppKit-4088AE?style=flat-square" alt="原生 macOS 界面">
 </p>
 
 <h3 align="center">
-  <a href="https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.12/Lilt-0.5.12-macOS-arm64.dmg">下载 Lilt 0.5.12</a>
+  <a href="https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.16/Lilt-0.5.16-macOS-arm64.dmg">下载 Lilt 0.5.16</a>
 </h3>
 <p align="center">
   <a href="docs/QUICKSTART.md">快速上手</a> &nbsp;·&nbsp;
-  <a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.12">更新说明</a> &nbsp;·&nbsp;
+  <a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.16">更新说明</a> &nbsp;·&nbsp;
   <a href="docs/VERIFICATION.md">验证范围</a> &nbsp;·&nbsp;
   <a href="https://github.com/limyum-creator/lilt-releases/issues">反馈问题</a>
 </p>
@@ -38,7 +38,7 @@
 
 **Lilt 把这些步骤接在一起。** 随手的操作放进屏幕顶部的灵动岛，完整的素材库和参数放在工作台。结果里的「接着处理」，把刚刚处理的素材和对应提示词一起交给下一步。
 
-> **0.5.12 / build 26** 已发布：DMG 安装包体积缩减 27%（182 MB），加固自动更新验签回滚、存储容错备份、小红书冷却保护与 Agent 外部文本确认，优化主线程缩略图与剪贴板性能。[查看这次更新](https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.12)
+> **0.5.16 / build 30** 已发布：新增截图、贴图与离线识字，完善 OpenAI 对话 / 生图及通用本地模型接入；常用模型可以多选，聊天菜单只显示勾选项。[查看这次更新](https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.16)
 
 ## 灵动岛里，随手做一点
 
@@ -51,11 +51,12 @@
 - **口播变成文稿。** 视频和音频在本机识别，生成 TXT 与 SRT，支持中英日等语言。语音模型按速度和精度另行选择。
 - **剪一段，换个格式。** 在岛内展开时间轴选择要保留的片段，也能处理视频、提取音频或转换格式。
 - **图片直接送去处理。** 岛内直接裁切调色，或使用模糊 / 纯色扩图、长图和宫格拼图；组图按整组交接。
+- **截图后继续处理。** 选区截图、桌面贴图、离线识字与截图翻译；圆角、阴影、描边和快捷键按需设置，也可把截图与文字交给 Lilt 助手。
 - **常用内容留在手边。** 剪贴板、提示词、素材暂存、音乐解锁与快捷启动，都有自己的岛内入口。
 
 ## Lilt 助手，让素材接着走
 
-点击岛内最左侧猫标（或按 `⌃⌥A`），灵动岛会直接展开为 **Lilt 助手**。可以接入自己的 **DeepSeek、通义千问、OpenRouter、Claude 或兼容接口**；本机服务可按相应接口配置。模型、密钥与生图权限由你准备。
+点击岛内最左侧猫标（或按 `⌃⌥A`），灵动岛会直接展开为 **Lilt 助手**。可以接入自己的 **OpenAI、DeepSeek、通义千问、OpenRouter、Claude 或兼容接口**；Strata、LM Studio、Ollama 等本机或局域网服务也可单独接入。模型、密钥与生图权限由你准备。
 
 <a href="assets/lilt-island.png"><img src="assets/lilt-island.png" width="100%" alt="展开的 Lilt 岛内助手：最左侧猫标进入助手，同一灵动岛窗口中查看会话、口播原文附件和多行输入。"></a>
 <p align="center"><sub>岛内展开的 Lilt 助手界面，使用演示文本与口播原文附件。点击可放大。</sub></p>
@@ -69,6 +70,8 @@
 | 处理要分好几步 | 查找素材、读取文本、提交任务、等待完成、保存结果 |
 
 附件会显示在输入区上方，可以查看原文、图片和文件。**交接先准备草稿，发送后才调用模型**；已主动配置的自动工作流按原设置执行。
+
+完整模型目录在设置里管理，**勾选常用模型后，聊天菜单只显示这些模型**。支持多选、全选、全不选、仅已选和搜索，刷新目录保留勾选。未配置的服务商统一显示「未接入」。
 
 长文可以分页读取，较早的过程整理后留有可读回记录。达到阶段边界时保留进度，同一对话可以「继续此任务」。读取外部网页文案或字幕后若触发下载、生图或写剪贴板，会先弹出确认。
 
@@ -94,7 +97,7 @@
 
 **1. 下载并安装**
 
-打开 [DMG 安装包](https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.12/Lilt-0.5.12-macOS-arm64.dmg)，把 Lilt 拖进「应用程序」。升级前先退出旧版，数据和已有输出目录继续沿用。
+打开 [DMG 安装包](https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.16/Lilt-0.5.16-macOS-arm64.dmg)，把 Lilt 拖进「应用程序」。升级前先退出旧版，数据和已有输出目录继续沿用。
 
 **2. 先完成一件小事**
 
@@ -144,7 +147,7 @@ API Key 保存在本机。**云端模型和生图服务会按服务商规则收�
 <details>
 <summary><b>如何核对下载文件？GitHub 的 “Source code” 是什么？</b></summary>
 
-下载同一发行版的 [SHA256SUMS.txt](https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.12/SHA256SUMS.txt)，与 DMG 放在同一目录后执行：
+下载同一发行版的 [SHA256SUMS.txt](https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.16/SHA256SUMS.txt)，与 DMG 放在同一目录后执行：
 
 ```bash
 shasum -a 256 -c SHA256SUMS.txt
@@ -162,7 +165,7 @@ shasum -a 256 -c SHA256SUMS.txt
 
 请带上 **Lilt 版本、Mac 芯片、macOS、操作步骤、预期与实际结果**。模型问题注明服务商、模型名和脱敏错误；截图前遮住私人素材与对话，不要提交 API Key、Cookie、密码或整个数据目录。
 
-本版完成 **382 项本机隔离检查**及安装包一致性验证；真实收费模型的生成质量、其他电脑上的平台下载仍需要实际使用反馈。[查看验证范围](docs/VERIFICATION.md)。
+本版完成接口、原生界面、布局、工作流、本机处理引擎及 MCP 隔离检查，并验证安装包与自动更新签名；不同服务的模型质量、其他电脑上的平台兼容性仍需要实际使用反馈。[查看验证范围](docs/VERIFICATION.md)。
 
 <p align="center">
   <a href="https://github.com/limyum-creator/lilt-releases/releases/latest">下载最新版</a> &nbsp;·&nbsp;
