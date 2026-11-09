@@ -1,4 +1,4 @@
-<a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.16">
+<a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.17">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/lilt-cover-dark.png">
     <img src="assets/lilt-cover-light.png" width="100%" alt="Lilt — 灵动岛里的素材助手。下载、转录、剪辑与图片处理，让素材在同一条工作流里继续。">
@@ -11,18 +11,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.16"><img src="https://img.shields.io/badge/内测-0.5.16-8067B4?style=flat-square" alt="当前内测版本 0.5.16"></a>
+  <a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.17"><img src="https://img.shields.io/badge/内测-0.5.17-8067B4?style=flat-square" alt="当前内测版本 0.5.17"></a>
   <img src="https://img.shields.io/badge/macOS-14%2B-64748B?style=flat-square&amp;logo=apple&amp;logoColor=white" alt="macOS 14 或更新">
   <img src="https://img.shields.io/badge/Apple_Silicon-M1%2B-64748B?style=flat-square" alt="Apple Silicon M1 及更新芯片">
   <img src="https://img.shields.io/badge/原生界面-SwiftUI_%2F_AppKit-4088AE?style=flat-square" alt="原生 macOS 界面">
 </p>
 
 <h3 align="center">
-  <a href="https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.16/Lilt-0.5.16-macOS-arm64.dmg">下载 Lilt 0.5.16</a>
+  <a href="https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.17/Lilt-0.5.17-macOS-arm64.dmg">下载 Lilt 0.5.17</a>
 </h3>
 <p align="center">
   <a href="docs/QUICKSTART.md">快速上手</a> &nbsp;·&nbsp;
-  <a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.16">更新说明</a> &nbsp;·&nbsp;
+  <a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.17">更新说明</a> &nbsp;·&nbsp;
   <a href="docs/VERIFICATION.md">验证范围</a> &nbsp;·&nbsp;
   <a href="https://github.com/limyum-creator/lilt-releases/issues">反馈问题</a>
 </p>
@@ -38,7 +38,7 @@
 
 **Lilt 把这些步骤接在一起。** 随手的操作放进屏幕顶部的灵动岛，完整的素材库和参数放在工作台。结果里的「接着处理」，把刚刚处理的素材和对应提示词一起交给下一步。
 
-> **0.5.16 / build 30** 已发布：新增截图、贴图与离线识字，完善 OpenAI 对话 / 生图及通用本地模型接入；常用模型可以多选，聊天菜单只显示勾选项。[查看这次更新](https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.16)
+> **0.5.17 / build 31** 已发布：修复对话输入焦点与模型选择器位置，补齐思考程度和上下文占用；新增对话重命名、归档恢复及存储清理。[查看这次更新](https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.17)
 
 ## 灵动岛里，随手做一点
 
@@ -73,6 +73,8 @@
 
 完整模型目录在设置里管理，**勾选常用模型后，聊天菜单只显示这些模型**。支持多选、全选、全不选、仅已选和搜索，刷新目录保留勾选。未配置的服务商统一显示「未接入」。
 
+输入区可选择模型支持的思考程度，顶部显示对话名和上下文占用估算。侧栏「…」可重命名、归档或删除；在 **设置 → 对话与存储** 恢复归档、多选删除或彻底清理对话及缓存，素材原件、生成结果和模型密钥保留。
+
 长文可以分页读取，较早的过程整理后留有可读回记录。达到阶段边界时保留进度，同一对话可以「继续此任务」。读取外部网页文案或字幕后若触发下载、生图或写剪贴板，会先弹出确认。
 
 <sub>这是一位围绕 Lilt 素材工具工作的专用助手。当前聊天不直接理解图片或视频画面；视频内容主要通过口播转录读取，图片可以交给处理或生图工具。脚本可以生成并另存，工具不执行终端命令或删除文件。</sub>
@@ -97,7 +99,7 @@
 
 **1. 下载并安装**
 
-打开 [DMG 安装包](https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.16/Lilt-0.5.16-macOS-arm64.dmg)，把 Lilt 拖进「应用程序」。升级前先退出旧版，数据和已有输出目录继续沿用。
+打开 [DMG 安装包](https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.17/Lilt-0.5.17-macOS-arm64.dmg)，把 Lilt 拖进「应用程序」。升级前先退出旧版，数据和已有输出目录继续沿用。
 
 **2. 先完成一件小事**
 
@@ -147,7 +149,7 @@ API Key 保存在本机。**云端模型和生图服务会按服务商规则收�
 <details>
 <summary><b>如何核对下载文件？GitHub 的 “Source code” 是什么？</b></summary>
 
-下载同一发行版的 [SHA256SUMS.txt](https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.16/SHA256SUMS.txt)，与 DMG 放在同一目录后执行：
+下载同一发行版的 [SHA256SUMS.txt](https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.17/SHA256SUMS.txt)，与 DMG 放在同一目录后执行：
 
 ```bash
 shasum -a 256 -c SHA256SUMS.txt
@@ -165,7 +167,7 @@ shasum -a 256 -c SHA256SUMS.txt
 
 请带上 **Lilt 版本、Mac 芯片、macOS、操作步骤、预期与实际结果**。模型问题注明服务商、模型名和脱敏错误；截图前遮住私人素材与对话，不要提交 API Key、Cookie、密码或整个数据目录。
 
-本版完成接口、原生界面、布局、工作流、本机处理引擎及 MCP 隔离检查，并验证安装包与自动更新签名；不同服务的模型质量、其他电脑上的平台兼容性仍需要实际使用反馈。[查看验证范围](docs/VERIFICATION.md)。
+本版完成对话管理与输入、接口、原生布局和工作流检查，并验证安装包、MCP 入口与自动更新签名；不同服务的模型质量、其他电脑上的平台兼容性仍需要实际使用反馈。[查看验证范围](docs/VERIFICATION.md)。
 
 <p align="center">
   <a href="https://github.com/limyum-creator/lilt-releases/releases/latest">下载最新版</a> &nbsp;·&nbsp;
