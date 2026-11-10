@@ -1,4 +1,4 @@
-<a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.17">
+<a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.23">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/lilt-cover-dark.png">
     <img src="assets/lilt-cover-light.png" width="100%" alt="Lilt — 灵动岛里的素材助手。下载、转录、剪辑与图片处理，让素材在同一条工作流里继续。">
@@ -11,18 +11,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.17"><img src="https://img.shields.io/badge/内测-0.5.17-8067B4?style=flat-square" alt="当前内测版本 0.5.17"></a>
+  <a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.23"><img src="https://img.shields.io/badge/内测-0.5.23-8067B4?style=flat-square" alt="当前内测版本 0.5.23"></a>
   <img src="https://img.shields.io/badge/macOS-14%2B-64748B?style=flat-square&amp;logo=apple&amp;logoColor=white" alt="macOS 14 或更新">
   <img src="https://img.shields.io/badge/Apple_Silicon-M1%2B-64748B?style=flat-square" alt="Apple Silicon M1 及更新芯片">
   <img src="https://img.shields.io/badge/原生界面-SwiftUI_%2F_AppKit-4088AE?style=flat-square" alt="原生 macOS 界面">
 </p>
 
 <h3 align="center">
-  <a href="https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.17/Lilt-0.5.17-macOS-arm64.dmg">下载 Lilt 0.5.17</a>
+  <a href="https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.23/Lilt-0.5.23-macOS-arm64.dmg">下载 Lilt 0.5.23</a>
 </h3>
 <p align="center">
   <a href="docs/QUICKSTART.md">快速上手</a> &nbsp;·&nbsp;
-  <a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.17">更新说明</a> &nbsp;·&nbsp;
+  <a href="https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.23">更新说明</a> &nbsp;·&nbsp;
   <a href="docs/VERIFICATION.md">验证范围</a> &nbsp;·&nbsp;
   <a href="https://github.com/limyum-creator/lilt-releases/issues">反馈问题</a>
 </p>
@@ -38,7 +38,7 @@
 
 **Lilt 把这些步骤接在一起。** 随手的操作放进屏幕顶部的灵动岛，完整的素材库和参数放在工作台。结果里的「接着处理」，把刚刚处理的素材和对应提示词一起交给下一步。
 
-> **0.5.17 / build 31** 已发布：修复对话输入焦点与模型选择器位置，补齐思考程度和上下文占用；新增对话重命名、归档恢复及存储清理。[查看这次更新](https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.17)
+> **0.5.23 / build 37** 已发布：新增「创作项目」视频选题工作区（自动归集对标参考、口播、封面生图与 AI 文稿，配备项目专属选题备忘录与 AI 会话），完善多图生图工作流、聊天图片预览去重、Agent 执行防重与 MCP 连接稳定性。[查看这次更新](https://github.com/limyum-creator/lilt-releases/releases/tag/v0.5.23)
 
 ## 灵动岛里，随手做一点
 
@@ -86,9 +86,9 @@
 <a href="assets/lilt-workbench.png"><img src="assets/lilt-workbench.png" width="100%" alt="Lilt 工作台的完整界面：左侧为 Lilt 助手、素材库、任务记录、项目与全部工具导航，右侧为当前工作视图。"></a>
 <p align="center"><sub>Lilt 工作台主界面；对话、附件和模型配置均为展示示例，未发起收费请求。</sub></p>
 
-- **素材库**：图片、视频与音频集中查看；空格预览，⌘ / ⇧ 多选、筛选、复制文案或拖到其他创作软件。
+- **素材库**：图片、视频与音频集中查看；支持按项目或未归类筛选，空格预览，⌘ / ⇧ 多选、筛选、复制文案或拖到其他创作软件。
 - **完整参数**：下载、转录、音视频、图片及其他工具保持各自的配置；窄窗口的设置分组会移到顶部。
-- **任务与项目**：查看排队、进度和结果，处理失败与重试；把素材用于自己的项目。
+- **创作项目与任务**：按单条视频或选题建立项目工作区，自动归集对标参考、口播转录、AI 生图与文稿，并提供项目专属选题备忘录与 AI 对话空间（免费版支持创建 5 个项目）。
 - **MCP 接入**：从设置中复制连接配置，交给支持本地 MCP 的客户端。相关处理运行组件随应用提供。
 
 首次使用的提示卡会跟随当前功能入口，用高亮框和引导线指明位置。想重看时，在设置中选择「重新查看新手引导」。
@@ -99,7 +99,7 @@
 
 **1. 下载并安装**
 
-打开 [DMG 安装包](https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.17/Lilt-0.5.17-macOS-arm64.dmg)，把 Lilt 拖进「应用程序」。升级前先退出旧版，数据和已有输出目录继续沿用。
+打开 [DMG 安装包](https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.23/Lilt-0.5.23-macOS-arm64.dmg)，把 Lilt 拖进「应用程序」。升级前先退出旧版，数据和已有输出目录继续沿用。
 
 **2. 先完成一件小事**
 
@@ -149,7 +149,7 @@ API Key 保存在本机。**云端模型和生图服务会按服务商规则收�
 <details>
 <summary><b>如何核对下载文件？GitHub 的 “Source code” 是什么？</b></summary>
 
-下载同一发行版的 [SHA256SUMS.txt](https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.17/SHA256SUMS.txt)，与 DMG 放在同一目录后执行：
+下载同一发行版的 [SHA256SUMS.txt](https://github.com/limyum-creator/lilt-releases/releases/download/v0.5.23/SHA256SUMS.txt)，与 DMG 放在同一目录后执行：
 
 ```bash
 shasum -a 256 -c SHA256SUMS.txt
@@ -158,6 +158,21 @@ shasum -a 256 -c SHA256SUMS.txt
 显示 `OK` 表示文件与发布校验值一致。
 
 公开分发仓提供**安装包与使用资料**。GitHub 自动生成的 “Source code” ZIP/TAR 是仓库文档快照，不是 App 安装包；请下载 `.dmg`。
+
+</details>
+
+<details>
+<summary><b>开发者工作区与本机更新说明（工程目录）</b></summary>
+
+日常启动 **[/Applications/Lilt.app](/Applications/Lilt.app)**。活动源码集中在 [`material-island/`](material-island/README.md)，项目规范见 [`AGENTS.md`](AGENTS.md)，当前版本和交接见 [`material-island/docs/CURRENT.md`](material-island/docs/CURRENT.md)，历史归档索引见 [`material-island/docs/ARCHIVE.md`](material-island/docs/ARCHIVE.md)。
+
+本机更新在 `material-island/` 执行：
+
+```sh
+python3 scripts/update-local.py
+```
+
+需要先验证时使用 `--prepare-only`，相关检查完成后使用 `--install-only`。根目录 `.env.local` 为本机私有配置（已忽略，不入库）。
 
 </details>
 
