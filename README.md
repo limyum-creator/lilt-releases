@@ -4,7 +4,7 @@
 
 **[官网下载](https://lilt.pro/downloads/) · [账号中心](https://lilt.pro/account/) · [GitHub 备用下载](https://github.com/limyum-creator/lilt-releases/releases/latest)**
 
-当前版本：**0.5.33**。支持 Apple Silicon（M1 及更新芯片）与 macOS 14+。
+当前版本：**0.5.37**。支持 Apple Silicon（M1 及更新芯片）与 macOS 14+。
 
 游客可直接使用下载、离线转录、剪辑、图片与截图录屏等基础工具，每日 10 条下载、1 个项目；免费账号每日 30 条、5 个项目。登录后可接入自己的 API，AI 调用不设会员次数限制。Pro 提供不限每日条数的下载、无限项目、主页批量与自动处理。Pro + AI 暂不开放。
 
