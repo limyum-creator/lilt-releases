@@ -174,9 +174,3 @@ shasum -a 256 Lilt-*-macOS-arm64.dmg
   <a href="docs/QUICKSTART.md">快速上手</a> &nbsp;·&nbsp;
   <a href="https://github.com/limyum-creator/lilt-releases/issues">问题与建议</a>
 </p>
-
-<p align="center">
-  <a href="https://github.com/limyum-creator/lilt-releases/releases/latest">下载最新版</a> &nbsp;·&nbsp;
-  <a href="docs/QUICKSTART.md">快速上手</a> &nbsp;·&nbsp;
-  <a href="https://github.com/limyum-creator/lilt-releases/issues">问题与建议</a>
-</p>
